@@ -1,0 +1,14 @@
+
+{
+    "MeasureName":  
+    {        
+        "Plan_Measure1": "SCC Forecast Measure 1",
+        "Plan_Measure2": "SCC Forecast Measure 2",
+        "Plan_Measure3": "SCC History Measure 1",
+        "Plan_Measure4": "SCC History Measure 2" ,
+        "Plan_Measure5": "SCC Higher Dimension Measure",
+        "Plan_Measure6": "SCC Editable Dimension Measure",
+        "Plan_Measure7": "SCC Missing Dimension Measure"  
+    }
+ 
+    }

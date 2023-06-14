@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <style>
+        h1 {
+            color: red;
+        }
+
+        p {
+            color: black;
+        }
+
+        input {
+            color: blue
+        }
+
+        .demo {
+            background-color: powderblue;
+        }
+
+        #lname {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>NEIL ARMSTRONG  BIOGROPHY</h1>
+    <p>NEIL ARMSTRONG said, "Thats one small step for man, one giant leap for mankind"</p>
+
+
+    <p>I don't care what NEIL ARMSTRONG said, Millions of people across the world still believe that no one has ever walked on the Moon and that the images that NASA broadcast in July 1969 were shot in a Hollywood studio. </p>
+
+    <p>Logically Armstrong never landed on Moon. </p>
+    <p>If you want to be the first person to land on the Moon. Submit below form to us </p>
+
+    <table>
+
+        <tr>
+            <td class="demo">FirstName:</td>
+            <td><input type="text" id="fname" /></td>
+        </tr>
+
+        <tr>
+            <td>LastName:</td>
+            <td><input type="text" id="lname" /></td>
+        </tr>
+
+        <tr>
+            <td>Email:</td>
+            <td><input type="text" /></td>
+        </tr>
+
+        <tr>
+            <td>Gender:</td>
+            <td>Male<input type="radio" name="g" /> Female<input type="radio" name="g" /></td>
+        </tr>
+        <tr>
+            <td>Country:</td>
+            <td><select>
+                    <option>india</option>
+                    <option>china</option>
+                    <option>USA</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Food</td>
+            <p>veg and non veg food will be available in the MOON, Please select one </p>
+            <td>Veg<input type="checkbox" /> NonVeg<input type="checkbox" /></td>
+        </tr>
+
+        <tr>
+            <td align='center' colspan=2> <input type="button" value="register" onclick="showDetails()" /></td>
+        </tr>
+
+    </table>
+
+    <a href="https://selenium.dev/">Help</a>
+
+    <script>
+        function showDetails() {
+            alert(document.getElementById("fname").value);
+        }
+    </script>
+</body>
+
+</html>

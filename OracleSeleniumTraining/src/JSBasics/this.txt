@@ -1,0 +1,4 @@
+ this -https://www.youtube.com/watch?v=Pi3QC_fVaD0   arrow function refers to global(window) object
+       https://www.youtube.com/watch?v=qs3F-z6ridc
+       https://www.youtube.com/watch?v=gvicrj31JOM - must watch
+       https://www.youtube.com/watch?v=Uhp9xPCILno
