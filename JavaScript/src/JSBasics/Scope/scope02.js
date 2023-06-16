@@ -8,11 +8,11 @@ console.log(a);
 
 if(1){  
    
-      // console.log(a);
-      // let  a="Anup_1k";
-      //  console.log(c);
+      console.log(a);
+      let  a="Anup_1k";
+       console.log(c);
 
-      // var a="Anup";
+      var a="Anup";
 }
 
 
