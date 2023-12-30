@@ -21,10 +21,10 @@ var fn4=function(){return Math.random};
 var fn4=()=>Math.random;
 
 
-anonymous function:
-var fn5 = function(a,function(){ 
+anonymous function, callback fn, arrow fn:
+fn5(10,function(){ 
 return a});
-var fn5 = function(a,()=>return a)
+fn5(10,()=>return a)
 
 
 
