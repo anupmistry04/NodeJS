@@ -3,7 +3,7 @@
 
 //   ///////////////////////////////////////////////////////////////////////////
   
-function watchTutorialPromise() { 
+function watchTutorialPromise(a,b) { 
     let userLeft = true
     let userWatchingCatMeme = true
     return new Promise((resolve, reject) => {   // let p = new Promise() then p.then().catch() check video https://www.youtube.com/watch?v=DHvZLI7Db8E&t=107s
@@ -25,7 +25,7 @@ function watchTutorialPromise() {
     })
   }
 
-  watchTutorialPromise().then(function(message) {
+  watchTutorialPromise(10,20).then(function(message) {
     console.log(message); 
   }).catch(error => {
     console.log(error.name + ' ' + error.message)
