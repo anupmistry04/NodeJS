@@ -17,3 +17,6 @@ A fixed amount of memory is allocated for static data. This process is known as 
 
 Heap: It is used to store objects and functions in JavaScript. The engine doesn’t allocate a fixed amount of memory. Instead, it allocates more space as required.
 Stack
+
+example with diagram :
+https://www.geeksforgeeks.org/memory-management-in-javascript/
