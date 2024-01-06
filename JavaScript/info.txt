@@ -1,1 +1,19 @@
-japascript Information
+JavaScript is single-threaded. This means that it carries out asynchronous operations via the callback queue and event loop
+
+1)Single Threaded
+2)asynchronous
+3) callback quere 
+4) call stack
+5) Event loop
+
+Memory Management :
+JavaScript engines have two places to store data: 
+
+Stack: stores static data. Static data refers to data whose size is known by the engine during compile time. 
+static data includes 
+1) primitive  data type : strings, numbers, boolean, null, and undefined. 
+2) References that point to objects and functions . 
+A fixed amount of memory is allocated for static data. This process is known as static memory allocation.
+
+Heap: It is used to store objects and functions in JavaScript. The engine doesn’t allocate a fixed amount of memory. Instead, it allocates more space as required.
+Stack
