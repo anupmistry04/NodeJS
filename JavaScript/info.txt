@@ -20,3 +20,10 @@ Stack
 
 example with diagram :
 https://www.geeksforgeeks.org/memory-management-in-javascript/
+
+
+synchronous Js:
+https://www.javascripttutorial.net/javascript-call-stack/
+
+asynchronous Js:
+https://youtu.be/lqLSNG_79lI?si=fdOuG-VJzf9f1ZOi
