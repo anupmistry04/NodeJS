@@ -30,3 +30,15 @@ function watchTutorialPromise(a,b) {
   }).catch(error => {
     console.log(error.name + ' ' + error.message)
   })
+
+
+watchTutorialPromise(10,20)
+.then(function(message) {
+    console.log(message); 
+  })
+.then(function(message) {
+    console.log(message); 
+  }).
+catch(error => {
+    console.log(error.name + ' ' + error.message)
+  })
